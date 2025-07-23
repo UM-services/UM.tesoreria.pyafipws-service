@@ -3,7 +3,7 @@ aniso8601==9.0.1
 attrs==23.2.0
 blinker==1.7.0
 certifi==2023.11.17
-cffi==1.16.0
+cffi==1.17.0
 click==8.1.7
 coverage==7.4.0
 cryptography==41.0.1
@@ -11,9 +11,10 @@ dbf==0.99.9
 exceptiongroup==1.2.0
 flake8==7.0.0
 Flask==3.0.1
+flask-restx==1.3.0
 fpdf==1.7.2
 freezegun==1.4.0
-future==0.18.3
+future==1.0.0
 httplib2==0.22.0
 idna==3.6
 iniconfig==2.0.0
@@ -21,9 +22,9 @@ itsdangerous==2.1.2
 Jinja2==3.1.3
 MarkupSafe==2.1.4
 mccabe==0.7.0
-multidict==6.0.4
+multidict==6.0.5
 packaging==23.2
-pillow==10.2.0
+pillow==11.0.0
 pluggy==1.3.0
 py==1.11.0
 pycodestyle==2.11.1
@@ -43,6 +44,7 @@ python-dotenv==1.0.0
 pytz==2023.3.post1
 PyYAML==6.0.1
 qrcode==6.1
+requests==2.31.0
 six==1.16.0
 tabulate==0.8.5
 tomli==2.0.1
@@ -52,4 +54,12 @@ wrapt==1.16.0
 yarl==1.9.4
 dnspython==2.6.1
 ifaddr==0.2.0
-py_eureka_client==0.11.10
+python-consul==1.1.0
+setuptools<81
+# OpenTelemetry dependencies for observability
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+opentelemetry-instrumentation-flask==0.46b0
+opentelemetry-instrumentation-requests==0.46b0
+opentelemetry-instrumentation-logging==0.46b0
+opentelemetry-exporter-otlp-proto-http==1.25.0
