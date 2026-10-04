@@ -2,6 +2,9 @@
 
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
+## [2.3.0] - 2026-10-04
+- Actualización de Certificado de ARCA
+
 ## [2.3.0] - 2025-07-09
 
 ### Nuevas características
